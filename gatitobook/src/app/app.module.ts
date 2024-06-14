@@ -16,6 +16,7 @@ import { AutenticacaoModule } from './autenticacao/autenticacao.module';
     HttpClientModule,
     CabecalhoModule,
     RodapeModule,
+    AutenticacaoModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
