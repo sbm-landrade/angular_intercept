@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
+
 @Component({
   selector: 'app-novo-animal',
   templateUrl: './novo-animal.component.html',
@@ -18,6 +19,6 @@ export class NovoAnimalComponent implements OnInit {
 
   upload() {}
 
-  gravarArquivo(arquivo: any) {}
+  gravaArquivo(arquivo: any) {}
 
 }
