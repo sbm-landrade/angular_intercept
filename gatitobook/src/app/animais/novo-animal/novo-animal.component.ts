@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-novo-animal',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./novo-animal.component.css']
 })
 export class NovoAnimalComponent implements OnInit {
+  formularioAnimal!: FormGroup;
+  file!: File;
+  preview!: string;
+  porcentualComcluido = 0;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
+
+  upload() {}
+
+  gravarArquivo(arquivo: any) {}
 
 }
